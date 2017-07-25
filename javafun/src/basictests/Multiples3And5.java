@@ -9,7 +9,7 @@ package basictests;
  */
 public class Multiples3And5 {
     public static void main(String[] args) {
-        int fig = 1000000;
+        int fig = 100;
         int fig1 = 5;
         int fig2 = 3;
         int sum = 0;

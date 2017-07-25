@@ -6,8 +6,8 @@ package basictests;
 public class Fib1 {
     public static void main(String[] args) {
 
-        int fibo = 0;
-        int fibo1 = 1;
+        int fibo = 1;
+        int fibo1 = 2;
         int quantity = 10;
 
 
