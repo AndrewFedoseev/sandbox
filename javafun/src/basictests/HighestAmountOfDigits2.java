@@ -5,7 +5,7 @@ package basictests;
  */
 public class HighestAmountOfDigits2 {
     public static void main(String[] args) {
-        int[] numbers = {111, 222, 333, 444, 55, 9};
+        int[] numbers = {111, 222, 333, 444, 55, 99};
         String digit;
         int sumOfDigits = 0;
         int maxSumOfDigit = 0;
@@ -22,6 +22,6 @@ public class HighestAmountOfDigits2 {
             }
             sumOfDigits = 0;
         }
-        System.out.println("the digit is " + max);
+        System.out.println("the digit is " + max + " and the sum is " +maxSumOfDigit);
     }
 }

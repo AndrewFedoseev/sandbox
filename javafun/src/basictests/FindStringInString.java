@@ -20,7 +20,7 @@ public class FindStringInString {
             }
             if (firstString.charAt(i) == secondString.charAt(y)) {
                 count1++;
-                for (int j = i+1; j < secondString.length(); j++) {
+                for (int j = i + 1; j < secondString.length(); j++) {
                     if (firstString.charAt(i + 1) == secondString.charAt(j)) {
                         count2++;
                         if (count1 == count2) {
