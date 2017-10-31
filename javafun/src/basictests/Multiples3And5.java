@@ -9,14 +9,14 @@ package basictests;
  */
 public class Multiples3And5 {
     public static void main(String[] args) {
-        int fig = 100;
+        int fig = 1000;
         int fig1 = 5;
         int fig2 = 3;
         int sum = 0;
 
         for (int i = 0; i < fig; i++) {
             if ((i % fig1) == 0 || (i % fig2) == 0) {
-                     sum += i;
+                sum += i;
             }
         }
         System.out.println(sum);
